@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection of Skies</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vhm6vkn.css">
+
+    <link rel="icon" type="image/png" href="/ArchiveOfSkies/assets/imgs/favicon.png">
+
+</head>
+<body class="greybg">
+    
+  <div class="nav-bar">
+    <div class="left-button">
+      <button class="nav-button"><h4><a class="nav" href="LandingPage.html">HOME</a></h4></button>
+    </div>
+  
+    <div class="skies-title center-title">
+      <h2>SKIES</h2>
+    </div>
+
+    <div class="right-button">
+      <button class="nav-button"><h4><a class="nav" href="Coords.html">COORDS</a></h4></button>
+    </div>
+  </div>
+  
+
+
+  <div id="output-container">
+  </div>
+
+  <!-- <a href="#" id="popup-link"><img src="https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2Fillustration.svg?v=1618177344016" /></a> -->
+
+
+  <div id="popup-window">
+    
+    </div>
+
+    
+  </div>
+        
+<!--     FILTER -->
+  <div class="filter-bar">
+    <div class="dropdown">
+      <button id="allFilter" class="dropbtn">ALL</button>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">COLOR OF THE SKY</button>
+      <div class="dropdown-content">
+        <a href="#"><div class="coordinate-buttons"><button class="filter-button" id="colorOrange">ORANGE</button></div></a>
+        <a href="#"><div class="coordinate-buttons"><button class="filter-button" id="colorBlue">BLUE</button></div></a>
+        <a href="#"><div class="coordinate-buttons"><button class="filter-button" id="colorPinkAndPurple">PINK / PURPLE</button></div></a>
+        <a href="#"><div class="coordinate-buttons"><button class="filter-button" id="colorBlackAndGrey">BLACK / GREY</button></div></a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">TIME OF THE DAY</button>
+      <div class="dropdown-content">
+        <a href="#"><div class="dayOrNight-buttons"><button class="filter-button" id="timeDay">Day</button></div></a>
+        <a href="#"><div class="dayOrNight-buttons"><button class="filter-button" id="timeNight">Night</button></div></a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">YEAR</button>
+      <div class="dropdown-content">
+        <a href="#"><div class="year-buttons"><button class="filter-button" id="year2021">2021</button></div></a>      
+        <a href="#"><div class="year-buttons"><button class="filter-button" id="year2022">2022</button></div></a>      
+        <a href="#"><div class="year-buttons"><button class="filter-button" id="year2023">2023</button></div></a>      
+        <a href="#"><div class="year-buttons"><button class="filter-button" id="year2024">2024</button></div></a>      
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">LOCATION</button>
+      <div class="dropdown-content">
+        <a href="#"><div class="coordinate-buttons"><button class="filter-button" id="locationToronto">TORONTO</button></div></a>
+        <a href="#"><div class="coordinate-buttons"><button class="filter-button" id="locationHongKong">HONG KONG</button></div></a>
+        <a href="#"><div class="coordinate-buttons"><button class="filter-button" id="locationNewYork">NEW YORK</button></div></a>
+        <a href="#"><div class="coordinate-buttons"><button class="filter-button" id="locationJapan">JAPAN</button></div></a>
+        <a href="#"><div class="coordinate-buttons"><button class="filter-button" id="locationMalaysiaSingapore">MALAYSIA / SINGARPORE</button></div></a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">ADDITIONAL VISUAL ELEMENTS</button>
+      <div class="dropdown-content">
+        <a href="#"><div class="additionalVisualElements-buttons"><button class="filter-button" id="additionalVisualElementsBuildings">BUILDINGS</button></div></a>
+        <a href="#"><div class="additionalVisualElements-buttons"><button class="filter-button" id="additionalVisualElementsCarOrRoad">CAR/ROAD</button></div></a>
+        <a href="#"><div class="additionalVisualElements-buttons"><button class="filter-button" id="additionalVisualElementsLandscape">LANDSCAPE</button></div></a>
+        <a href="#"><div class="additionalVisualElements-buttons"><button class="filter-button" id="additionalVisualElementsPeople">PEOPLE</button></div></a>
+        <a href="#"><div class="additionalVisualElements-buttons"><button class="filter-button" id="additionalVisualElementsWater">WATER</button></div></a>
+      </div>
+    </div>
+
+
+    <div class="dropdown">
+      <button class="dropbtn">WITH WHOM</button>
+      <div class="dropdown-content">
+        <a href="#"><div class="withWhom-buttons"><button class="filter-button" id="withWhomAlone">ALONE</button></div></a>
+        <a href="#"><div class="withWhom-buttons"><button class="filter-button" id="withWhomFamily">FAMILY</button></div></a>
+        <a href="#"><div class="withWhom-buttons"><button class="filter-button" id="withWhomFriends">FRIEND(S)</button></div></a>
+      </div>
+    </div>
+  </div>
+
+        <script defer src="main.js" ></script>
+
+    </body>
+</html>
+
+
