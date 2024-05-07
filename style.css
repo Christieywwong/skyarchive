@@ -1,6 +1,9 @@
 body{
   background-color:#138ECE;
-  /* cursor: url('./assets/imgs/favicon.png'),auto; */
+  cursor: url('./assets/imgs/favicon.png'),auto;
+}
+.cursor{
+  cursor: url('./assets/imgs/favicon.png'),auto;
 }
 
 
@@ -30,7 +33,7 @@ h3{
 }
 h4{
   font-family: "paralucent", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   font-size: 20px;
   margin:0px;
@@ -107,17 +110,17 @@ a.template-button-text{
   text-align:center;
   position:fixed;
   z-index:10;
-  /* cursor: url('./assets/imgs/favicon.png'),auto; */
+  cursor: url('./assets/imgs/favicon.png'),auto;
 
 }
 .nav-button{
   background-color:#EBFD1C;
   color:#138ECE;
   text-align:center;
-  width:120px;
+  width:140px;
   border-radius: 50px;
   filter: drop-shadow(0px 4px 4px rgb(0 0 0 / 0.4));
-  padding:5px 2px 5px;
+  padding:8px 5px 8px;
 }
 .center-title{
   top: 50%;
@@ -149,6 +152,7 @@ a.template-button-text{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  cursor: url('./assets/imgs/favicon.png'),auto;
 }
 .landingpage-title{
   color:white;
@@ -199,6 +203,63 @@ a.template-button-text{
   flex-direction: column;
   display: flex;
   margin:0px;
+}
+
+
+.coordsNewYork:hover span {
+  display: none;
+}
+.coordsNewYork:hover:before {
+  content: "New York"
+}
+
+.coordsToronto:hover span {
+  display: none
+}
+.coordsToronto:hover:before {
+  content: "Toronto"
+}
+
+.coordsHongKong:hover span {
+  display: none
+}
+.coordsHongKong:hover:before {
+  content: "Hong Kong"
+}
+
+.coordsTokyo:hover span {
+  display: none
+}
+.coordsTokyo:hover:before {
+  content: "Tokyo"
+}
+
+.coordsOsaka:hover span {
+  display: none
+}
+.coordsOsaka:hover:before {
+  content: "Osaka"
+}
+
+.coordsSingapore:hover span {
+  display: none
+}
+.coordsSingapore:hover:before {
+  content: "Singapore"
+}
+
+.coordsGeorgeTown:hover span {
+  display: none
+}
+.coordsGeorgeTown:hover:before {
+  content: "George Town"
+}
+
+.coordsJohor:hover span {
+  display: none
+}
+.coordsJohor:hover:before {
+  content: "Johor"
 }
 
 
@@ -412,33 +473,16 @@ button:hover {
 
 
 /* MAP */
-.map-left-column{
-  margin:0px;
-  width: 80%;
-}
 .map-left-column img{
-  /* filter: blur(4px); */
-  transition: filter 1s ease;
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width:100%;
-  z-index: -10;
-}
-.map-left-column img:hover{
-  filter: blur(0px);
-}
-.map-right-column{
   display: flex;
   flex-direction:column;
-  text-align:left;
-  margin:5px;
-  width: 20%;
-  justify-content: center;
-  text-align: center;
-  z-index: 10;
-  
+  width:100%;
+  margin:0px;
+  margin-top:-10px;
+  position: absolute;
+  right: 0%;
 }
+
 .dots{
   position: absolute;
   top: 0%;
@@ -463,7 +507,7 @@ button:hover {
   font-style: normal;
   text-align:left;
   position: fixed;
-  top: 3vh;
+  top: 1vh;
   left: 3vh;
 }
 .map-skies h3{
@@ -478,45 +522,45 @@ button:hover {
   align-items: center;
 }
 .nav-button-map1{
-  background-color:#138ECE;
-  color:#EBFD1C;
+  background-color:#EBFD1C;
+  color:#138ECE;
   text-align:center;
   margin: 10px;
   width:160px;
   border-radius: 50px;
   filter: drop-shadow(0px 4px 4px rgb(0 0 0 / 0.4));
-  padding:12px 5px 12px;
+  padding:8px 5px 8px;
   position: fixed;
-  left: 3vh;
-  top: 15vh;
+  left: 2vh;
+  top: 13vh;
   z-index: 10;
   /* cursor: url('./assets/imgs/favicon.png'),auto; */
 }
 .nav-button-map2{
-  background-color:#138ECE;
-  color:#EBFD1C;
+  background-color:#EBFD1C;
+  color:#138ECE;
   text-align:center;
   margin: 10px;
   width:160px;
   border-radius: 50px;
   filter: drop-shadow(0px 4px 4px rgb(0 0 0 / 0.4));
-  padding:12px 5px 12px;
+  padding:8px 5px 8px;
   position: fixed;
-  top: 21vh;
-  left: 3vh;
+  top: 19vh;
+  left: 2vh;
   z-index: 10;
 }
 .nav-button-map1:hover{
-  background-color:#138ECE;
-  color:#EBFD1C;
+  background-color:#EBFD1C;
+  color:#138ECE;
 }
 .nav-button-map2:hover{
-  background-color:#138ECE;
-  color:#EBFD1C;
+  background-color:#EBFD1C;
+  color:#138ECE;
 }
 a.nav-map{
   text-decoration: none; 
-  color:#EBFD1C;
+  color:#138ECE;
 }
 .dot{
   border-radius: 50px;
@@ -610,15 +654,15 @@ a.nav-map{
     font-weight: 500;
     font-style: normal;
     color: white;
-    margin:0px; 
-    font-size: 50px;
+    margin:20px; 
+    font-size: 90px;
+    line-height: 90px;
     padding: 0%;
 
   }
   .selections-text h2{
     margin:0px; 
     padding: 0%;
-    
   }
   .selections-text:hover{
     padding:2px 1px 2px;
@@ -646,8 +690,8 @@ a.nav-map{
   .nav-button-map1{
     width:100px;
     padding:5px 3px 5px;
-    left: 3vh;
-    top: 11vh;
+    left: 2vh;
+    top: 9vh;
   }
   .nav-button-map1 h4{
     font-size:18px;
@@ -655,8 +699,8 @@ a.nav-map{
   .nav-button-map2{
     width:100px;
     padding:5px 3px 5px;
-    left: 3vh;
-    top: 15vh;
+    left: 2vh;
+    top: 13.5vh;
   }
   .nav-button-map2 h4{
     font-size:18px;
