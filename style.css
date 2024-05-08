@@ -473,14 +473,17 @@ button:hover {
 
 
 /* MAP */
-.map-left-column img{
-  display: flex;
-  flex-direction:column;
-  width:100%;
-  margin:0px;
-  margin-top:-10px;
-  position: absolute;
-  right: 0%;
+.map-left-column {
+  width: 100%;
+  overflow-x: auto;
+  /* overflow-y: auto;  */
+  height: 100vh;
+}
+
+.map-left-column img {
+  width: auto; 
+  min-width: 100%;
+  display: block;
 }
 
 .dots{
@@ -572,6 +575,7 @@ a.nav-map{
   top: 40vh;
   left: 34vw;
 }
+
 
 @media screen and (max-width: 1300px) {
   #popup-window{
@@ -832,6 +836,11 @@ a.nav-map{
   }
   .nav-button-map2 h4{
     font-size:15px;
+  }
+  #output-container img{
+    height: auto;
+    width: 50vw;
+    margin: 0%;
   }
 }
 
