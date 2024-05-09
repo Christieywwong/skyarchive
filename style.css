@@ -374,7 +374,7 @@ button:hover {
 }
 #output-container img{
   height: auto;
-  width: 20vw;
+  width: 25vw;
   margin: 0%;
   cursor: url('./assets/imgs/favicon.png'),auto;
 }
