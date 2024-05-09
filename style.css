@@ -511,7 +511,7 @@ button:hover {
   text-align:left;
   position: fixed;
   top: 1vh;
-  left: 3vh;
+  left: 55px;
 }
 .map-skies h3{
   font-size: 100px;
@@ -529,12 +529,12 @@ button:hover {
   color:#138ECE;
   text-align:center;
   margin: 10px;
-  width:160px;
+  width:170px;
   border-radius: 50px;
   filter: drop-shadow(0px 4px 4px rgb(0 0 0 / 0.4));
   padding:8px 5px 8px;
   position: fixed;
-  left: 1vw;
+  left: 40px;
   top: 120px;
   z-index: 10;
   /* cursor: url('./assets/imgs/favicon.png'),auto; */
@@ -544,13 +544,13 @@ button:hover {
   color:#138ECE;
   text-align:center;
   margin: 10px;
-  width:160px;
+  width:170px;
   border-radius: 50px;
   filter: drop-shadow(0px 4px 4px rgb(0 0 0 / 0.4));
   padding:8px 5px 8px;
   position: fixed;
   top: 180px;
-  left: 1vw;
+  left: 40px;
   z-index: 10;
 }
 .nav-button-map1:hover{
@@ -575,7 +575,104 @@ a.nav-map{
   top: 40vh;
   left: 34vw;
 }
+@media screen and (min-width: 2000px) {
+  .left-button h4{
+    font-size:28px;
+  }
+  .right-button h4{
+    font-size:28px;
+  }
+  .nav-button{
+    width:170px;
+    padding:8px 5px 8px;
+  }
+  .skies-title{
+    font-size: 90px;
+    margin: 0%;
+  }
+  .map-skies h3{
+    font-size: 90px;
+  }
+  .nav-button-map1{
+    width:170px;
+    padding:8px 5px 8px;
+    left: 40px;
+    top: 120px;
+  }
+  .nav-button-map1 h4{
+    font-size:28px;
+  }
+  .nav-button-map2{
+    width:170px;
+    padding:8px 5px 8px;
+    left: 40px;
+    top: 190px;
+  }
+  .nav-button-map2 h4{
+    font-size:28px;
+  }
+  .dropbtn {
+    font-size: 28px;
+    padding: 3px;
+  }
+  .filter-bar{
+    top:160px;
+  }
+  .filter-button{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 28px;
+  }
+  .dropdown-content {
+    z-index: 1;
+    padding: 1%;
+  }
+  #output-container img{
+    height: auto;
+    margin: 0%;
+  }
+  .wrapper h1{
+    font-size: 300px;
+  }
+  .wrapper p{
+    font-size: 25px;
+  }
+  .selections-text{
+    font-family: "paralucent", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    margin:20px; 
+    font-size: 180px;
+    line-height: 180px;
+    padding: 0%;
 
+  }
+  .selections-text h2{
+    margin:0px; 
+    padding: 0%;
+  }
+  .selections-text:hover{
+    padding:2px 1px 2px;
+  }
+  #close-button{
+    position: fixed;
+    top: 7%;
+    right: 6vw;
+    font-size: 25px;
+  }
+  .map-left-column{
+    width: 100%;
+  }
+  .right-column p{
+    font-size: 25px;
+  }
+  .coordinates{
+    text-align: center;
+    margin-top:200px;
+  }
+
+  }
 
 @media screen and (max-width: 1300px) {
   #popup-window{
@@ -621,6 +718,27 @@ a.nav-map{
     width:100px;
     padding:5px 3px 5px;
   }
+  .nav-button-map1{
+    width:120px;
+    padding:5px 3px 5px;
+    left: 20px;
+    top: 80px;
+  }
+  .nav-button-map1 h4{
+    font-size:18px;
+  }
+  .nav-button-map2{
+    width:120px;
+    padding:5px 3px 5px;
+    left: 20px;
+    top: 125px;
+  }
+  .nav-button-map2 h4{
+    font-size:18px;
+  }
+  .map-skies{
+    left: 35px;
+  }
   .skies-title{
     font-size: 50px;
     margin: 0%;
@@ -635,7 +753,7 @@ a.nav-map{
   .filter-button{
     margin-top: 3px;
     margin-bottom: 3px;
-    font-size: 10px;
+    font-size: 12px;
   }
   .dropdown-content {
     z-index: 1;
@@ -696,24 +814,7 @@ a.nav-map{
   .map-right-column h3{
     font-size: 70px;
   }
-  .nav-button-map1{
-    width:100px;
-    padding:5px 3px 5px;
-    left: 2vh;
-    top: 9vh;
-  }
-  .nav-button-map1 h4{
-    font-size:18px;
-  }
-  .nav-button-map2{
-    width:100px;
-    padding:5px 3px 5px;
-    left: 2vh;
-    top: 13.5vh;
-  }
-  .nav-button-map2 h4{
-    font-size:18px;
-  }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -822,7 +923,6 @@ a.nav-map{
   .nav-button-map1{
     width:80px;
     padding:3px 3px 3px;
-    left: 2vw;
     top: 50px;
   }
   .nav-button-map1 h4{
@@ -831,7 +931,6 @@ a.nav-map{
   .nav-button-map2{
     width:80px;
     padding:3px 3px 3px;
-    left: 2vw;
     top: 85px; 
   }
   .nav-button-map2 h4{
@@ -844,6 +943,14 @@ a.nav-map{
   }
 }
 
+
+@media screen and (max-width: 370px) {
+  .selections-text{
+    margin:20px; 
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
 
 .container {
   text-align: center;
